@@ -1,0 +1,19 @@
+ALGORITHM inseration sort
+VAR
+    arr: ARRAY_OF INTEGER;
+    current , i , j : INTEGER ;
+BEGIN
+    FOR i FROM 1 TO arr .lengeth -1  DO
+    current = arr[i];
+    j :=i-1;
+
+    WHILE (j>= 0 and arr[j] > current) DO
+        arr[j=1] :=arr[j];
+        j:= j-1;
+    END_WHILE
+
+
+        
+        arr[j+1] = current
+        END_FOR
+END
